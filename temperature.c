@@ -3,10 +3,10 @@
 
 //temp conversions
 float celsius_to_fahrenheit (float celsius) {
-    return (9/5)*celsius + 32;
+    return (9.0/5.0)*celsius + 32;
 }
 float fahrenheit_to_celsius (float fahrenheit) {
-    return (5/9)*(fahrenheit - 32);
+    return (5.0/9.0)*(fahrenheit - 32);
 }
 float celsius_to_kelvin (float celsius) {
     return celsius + 273.15;
@@ -15,10 +15,10 @@ float kelvin_to_celsius (float kelvin) {
     return kelvin - 273.15;
 }
 float fahrenheit_to_kelvin (float fahrenheit) {
-    return (5/9)*(fahrenheit - 32) + 273.15;
+    return (5.0/9.0)*(fahrenheit - 32) + 273.15;
 }
 float kelvin_to_fahrenheit (float kelvin) {
-    return (kelvin - 273.15)*(9/5) + 32;
+    return (kelvin - 273.15)*(9.0/5.0) + 32;
 }
 
 //Freezing: Below 0°C (or equivalent in other scales)
