@@ -30,7 +30,7 @@ used for building your project for the Github Action and running the tests.
 Create a [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
 of this repository through GitHub then clone it locally and start working.
 
-### Starting files
+### starting files
 
 You begin with all source and header files you will need for the lab. For help
 working with multiple C source files and compiling them, you can refer back to
