@@ -1,7 +1,8 @@
 CC := gcc
+CFLAGS := -Wall
 
-football.exe: # fill in files here
-	# fill in commands here
+football.exe: football_main.c football.c
+	$(CC) $^ -o $@
 
-temperature.exe: # fill in files here
-	# fill in commands here
+temperature.exe: temperature_main.c temperature.c
+	$(CC) $^ -g -o $@
