@@ -23,6 +23,8 @@ int main() {
         if (temp_scale == target_scale) { //if the user makes a redundant conversion choice.
             printf("Invalid conversion choice."); //error message
         }
+        //all subsequent F, C, or K is wrapped in signle quotes, instead of double quotes to signify a single character with 
+        //char data type instead of a string of characters.
         else if (temp_scale == 'K' && temp < 0) { //if the user submits a temperature below absolute zero.
                 printf("Invalid input for Kelvin."); //error message
         }
